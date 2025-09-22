@@ -1,0 +1,14 @@
+country=str(input("Enter country"))
+state=str(input("Enter state"))
+ct=str(input("Enter name (city/town)"))
+area=str(input("Enter area"))
+street=str(input("Enter street"))
+apart=str(input("are you a apartment resident yes/no"))
+dno=str(input("Enter Door number"))
+pin=str(input("Enter Pin code"))
+k=","
+if apart =="yes":
+    apartname=str(input("Enter apartment name"))
+    print(dno,k,apartname,k,street,k,area,k,ct,k,state,k,country,k,pin)
+else:
+    print(dno,k,street,k,area,k,ct,k,state,k,country,k,pin)
