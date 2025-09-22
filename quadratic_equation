@@ -1,1 +1,15 @@
 
+a=int(input("coeff of x²"))
+b=int(input("coeff of x"))
+c=int(input("Enter the constant :"))
+det1=4*a*c
+det2=b**2
+det3=det2-det1
+det=det3**0.5
+num1=-b+det
+num2=-b-det
+deno=2*a
+root1=num1/deno
+root2=num2/deno
+print("roots of the equation is ",root1,",",root2)
+
